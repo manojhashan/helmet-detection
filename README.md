@@ -1,20 +1,44 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+<h1>Helmet Detection App</h1>
+<p>A web application for detecting helmets in images or video streams.</p>
 </div>
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
+This project is a React-based application that provides a user interface for helmet detection, utilizing a locally hosted deep learning model (`helmet_model (1).h5`). 
 
-View your app in AI Studio: https://ai.studio/apps/14e7a4d9-6ed3-437b-bd85-c34323f67548
+## Features
+
+- **Local Helmet Detection:** Powered by a pre-trained deep learning model stored in the `Model/` directory.
+- **Web Interface:** Easy-to-use React and Vite frontend.
+- **Fast Execution:** Backend runs on Express.js to seamlessly serve the app.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** 
+- [Node.js](https://nodejs.org/) installed on your machine.
 
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   This will start the application locally. Check the terminal output for the local server URL to access the web interface.
+
+## Build for Production
+
+If you want to build the optimized version of the app:
+
+1. **Build the app:**
+   ```bash
+   npm run build
+   ```
+
+2. **Start the production server:**
+   ```bash
+   npm start
+   ```
