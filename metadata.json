@@ -1,0 +1,8 @@
+{
+  "name": "Aegis AI: Industrial Helmet Detection",
+  "description": "Professional-grade safety monitoring system that uses AI vision to detect construction helmets and safety violations in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
